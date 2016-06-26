@@ -1,7 +1,7 @@
 {
     "domain": "localhost",
     "name": "Basic Forum",
-    "database_name": "database_name",
+    "database_name": "test",
     "database_username": "database_username",
     "database_password": "database_password",
     "email_server_name": "mail.example.com",

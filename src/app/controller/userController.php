@@ -14,7 +14,7 @@ use app\classes\PDO_Database;
 use app\classes\Token;
 use app\classes\Controller;
 use app\classes\Email;
-use app\classes\Message;
+
 
 class userController extends Controller {
 
@@ -48,7 +48,7 @@ class userController extends Controller {
         if ($result == false) {
             if ($password === $confirm) {
                 if ($db->insert_db("users", array('Email', 'Password', 'Token', 'Confirmed'), array($email, $this->encryptPassword($password), hash_hmac('sha256', "'" . $email, $this->generateRandomString() . "'"), $confirmation))) {
-                    $message = new Message();
+                  
                     $confirmation_url = $_SERVER['HTTP_HOST'] . __PREFIX . "user-verify-" . $confirmation;
                     $confirm_email = new Email();
                     $confirm_email->setMessage("Hi!", "Verify your email address", "

@@ -1,12 +1,12 @@
 {
     "domain": "localhost",
     "name": "Basic Forum",
-    "database_name": "seriousg_forum",
-    "database_username": "seriousg_root",
-    "database_password": "amg1929",
-    "email_server_name": "mail.serious-games.ir",
+    "database_name": "database_name",
+    "database_username": "database_username",
+    "database_password": "database_password",
+    "email_server_name": "mail.example.com",
     "email_server_port": 25,
-    "email_username": "admin@serious-games.ir",
-    "email_password": "amg1929",
+    "email_username": "example@example.com",
+    "email_password": "",
     "security": ""
 }

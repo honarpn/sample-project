@@ -1,0 +1,16 @@
+{
+    "meta": {
+       
+        "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no",
+        "HandheldFriendly": "true",
+        "author": "",
+        "description": "",
+        "robots": "",
+        "googlebot": "",
+        "Slurp": ""
+       
+    },
+    "javascript": ["js/jquery.js", "js/bootstrap.min.js","js/init.js"],
+    "css": [ "css/bootstrap.min.css","css/init.css"],
+    "footer": []
+}

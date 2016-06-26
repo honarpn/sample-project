@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "vendor/swiftmailer/swiftmailer/lib/classes/Swift.php",
+            "vendor/swiftmailer/swiftmailer/lib/swift_init.php",
+            "vendor/swiftmailer/swiftmailer/lib/swift_required.php"
+        ]
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4.2"
+    }
+}

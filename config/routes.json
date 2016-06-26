@@ -1,0 +1,39 @@
+{
+    "controllers":
+            {
+                "home": {
+                    "setPage": []
+                },
+                "user": {
+                    "login": ["email", "password", "remember"]
+                    ,
+                    "signup": ["email", "password", "confirm"]
+                    ,
+                    "change": ["oldPassword", "newPassword", "confirm"]
+                    ,
+                    "resetrequest": ["email"]
+                    ,
+                    "reset": ["password", "confirm"]
+                    ,
+                    "new": ["token"]
+                    ,
+                    "verify": ["token"]
+                    ,
+                    "logout": []
+                },
+                "posts": {
+                    "add": ["name", "post"]
+                    ,
+                    "show": ["page"]
+
+                }
+            }
+
+
+
+
+
+
+
+
+}

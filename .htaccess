@@ -1,0 +1,8 @@
+#Following line make all requests to files and directories go to app.php 
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.otf|\.eot|\.svg|\.ttf|\.woff|\.gif|robots\.txt)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?rt=$1 [L,QSA]
+

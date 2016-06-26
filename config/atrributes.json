@@ -1,0 +1,50 @@
+{
+    "text": {
+        "name": "text",
+        "type": "text",
+        "value": "",
+        "placeholder": "Please Enter Your Text",
+        "title": "Please Enter Your Text",
+        "id": "email",
+        "class": "form-control",
+        "required": "required"
+    },
+    "email": {
+        "name": "email",
+        "type": "email",
+        "value": "",
+        "placeholder": "Please Enter Your Email Address",
+        "pattern": "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,3}$",
+        "title": "Please Enter a Vlaid Email",
+        "id": "email",
+        "class": "form-control",
+        "required": "required"
+    },
+    "password": {
+        "name": "password",
+        "type": "password",
+        "value": "",
+        "placeholder": "Please Enter Your Password",
+        "pattern": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}",
+        "title": "Your password must contain  number, uppercase and lowercase letter, and at least 8 or more characters",
+        "id": "password",
+        "class": "form-control",
+        "required": "required"
+    },
+    "checkbox": {
+        "name": "remember",
+        "type": "checkbox",
+        "value": "remember",
+        "id": "remember",
+        "text":"Remember Me"
+       
+    },
+    "submit": {
+        "type": "submit",
+        "value": "submit",
+        "class": "ok",
+        "style": "height:50px;color:white;width:100%;"
+    }
+}
+
+
